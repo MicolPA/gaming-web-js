@@ -1,3 +1,5 @@
+//Page version using https://rawg.io API
+
 const URL = 'https://api.rawg.io/api';
 const KEY = 'fb48dfa6530647a0af4ecd764c927903';
 const gameContainer = document.getElementById('mainContainer')

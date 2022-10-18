@@ -1,3 +1,5 @@
+//Page version using https://www.freetogame.com/api-doc API
+
 const URL = 'https://free-to-play-games-database.p.rapidapi.com/api';
 mainContainer = document.getElementById('mainContainer');
 keyword = document.getElementById('searchInputGame');
