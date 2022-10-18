@@ -143,7 +143,7 @@ async function searchGame(){
         return game.title.toUpperCase().indexOf(keyword.value.toUpperCase()) >= 0 ? true : false;
     })
 
-    document.getElementById('resultLabel').innerHTML = `Resultados de: "${keyword.value}"`;
+    document.getElementById('resultLabel').innerHTML =  dataFiltered.length + ` results found: "${keyword.value}"`;
     console.log(dataFiltered);
     setGameList(dataFiltered);
     mainContainer.scrollIntoView();
